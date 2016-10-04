@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<link rel="shortcut icon" type="text/css" href="{{ static_url("css/favicon.ico") }}">
+	<title>{{ title }}</title>
+</head>
+<body>
+   <h1>{{ header }}</h1>
+	  <div>
+	  	 {% for book in books %}
+                <div>
+                	 {{ book }}
+                </div>
+            {% end %}
+	  </div>
+	  	
+	 
+</body>
+</html>

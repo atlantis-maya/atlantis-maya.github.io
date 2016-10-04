@@ -1,0 +1,110 @@
+body {
+  margin: 0 0;
+  padding: 0 0;
+}
+/*
+设置a连接字体大小
+ */
+ul li a {
+  font-size: 16px;
+}
+/*
+设置ul下的li样式
+ */
+.ul-li {
+  padding-top: 40px;
+}
+/*
+设置字体大小
+ */
+.user-fontsize {
+  font-size: 30px;
+}
+
+/*
+设置左边的样式
+ */
+.left-style{
+  background-color: whitesmoke;           
+  position: relative;
+  left: 0px;
+  top: 100px;
+}
+/*.firstimage {
+  height: 300px;
+  width: 400px;
+}*/
+.li-style {
+  padding-top: 10px;
+}
+/*
+footer div的样式
+ */
+.footer-style {
+  position: relative;
+  top: 150px;
+}
+/*
+设置a为无样式
+ */
+a {
+  text-decoration: none;
+}
+/*
+设置圆角
+ */
+.radius {
+  border-radius: 2px;
+}
+/*
+border样式
+ */
+.border-style {
+  border: 0.5px solid #a1a1a1;
+}
+.border-bottom-top {
+  border-top: 0.5px solid #a1a1a1;
+  border-bottom: 0.5px solid #a1a1a1;
+}
+/*
+.form-style {
+  position: relative;
+  top: 80px;
+}*/
+
+.image-padding {
+  padding-left: 80px;
+}
+
+/*
+设置内容样式
+ */
+.content {
+  position: relative;
+  top: 50px;
+  left: 0px;
+}
+/*
+设置页面颜色
+ */
+body {
+  background-color: whitesmoke;
+}
+/*
+设置中间的那条竖线
+ */
+.left-div {
+  border-left: 0.5px solid #a1a1a1;
+}
+ .local{
+            height: auto;
+            width: 60%;
+            position:relative;
+            left:5%;
+        }
+pre{
+
+  border-radius:15px;
+   font-size:18px;
+
+ }

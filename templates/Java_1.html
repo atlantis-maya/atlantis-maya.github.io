@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% block body %}
+         <div class="col-md-8  col-md-offset-1 left-div">
+            <p style="font-size: 24px">HelloWorld</p>
+            <p style="font-size:18px">对于计算机的学生来书基本上学的第一个例子就应该是helloworld这个了,我也一样从这个小例子开始记录</p>
+        <pre id="java" class="prettyprint">
+        	 <code>
+        	  //在一个.java文件中最多只能有一个public可以有其他private或者protect的
+               //HelloWorld表示的是类的名字,在Java这们语言中使用驼峰命名法
+               public class HelloWorld{
+                  //主方法,整个程序的入口
+                  public static void main(String args[]){
+                        //在屏幕上打印出helloworld
+                        System.out.println("Hello World");
+                   } 
+                }
+	    </code>
+        </pre>
+          <br>
+        <p style="font-size:18px">下面是第二中写法</p>
+      
+        <pre id="java" class="prettyprint">
+        	 <code>
+               public class HelloWorld{
+               //这个和上一个效果是相同的因为String ...表示的是可变参数,所以和String [],具有
+               //相同的效果
+                  public static void main(String ... args){
+                        System.out.println("Hello World");
+                   } 
+                }
+	    </code>
+        </pre>
+         <br>
+        <p style="font-size:18px">如果一个类不是公共的那么可以使用main方法吗</p>
+       
+        <pre id="java" class="prettyprint">
+        	 <code>
+        	 //在一个类中并没有强制要求使用public所以这个和前面的两个
+        	 //输出的结果是一样的
+                class HelloWorld{
+                  public static void main(String ... args){
+                  //下面是输出方法System类调用out方法中的println方法打印出
+                  //HelloWorld
+                        System.out.println("Hello World");
+                   } 
+                }
+	    </code>
+        </pre>
+        <br>
+        <p style="font-size:18px">它们的输出结果都是一样的</p>
+
+         <pre id="java" class="prettyprint">
+        	 <code>
+              hello world
+              Process finished with exit code 0
+	    </code>
+        </pre>
+        <br>
+        <br>
+        <p style="font-size:18px">这是我学习java的第一个小例子也是步入java大门的第一步,最开始都是比较容易的
+        </p>
+         <br>
+        <br>
+        <span style="padding-left:10%">上一篇:<a href="" title=""></a></span> <span style="padding-left:50%">下一篇:<a style="padding-left:20px" href="###" title="java的基本数据类型">java的基本数据类型</a></span>
+         <br>
+        <br> 
+        <br>
+        <br>
+	</div>
+
+
+{% end %}
+
+
