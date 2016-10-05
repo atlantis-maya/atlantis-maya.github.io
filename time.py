@@ -1,5 +1,5 @@
 import time
-
+# 这个是用来测试时间的
 #返回当前时间
 
 def GetNowTime():
